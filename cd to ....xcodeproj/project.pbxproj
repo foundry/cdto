@@ -658,6 +658,7 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
 				INSTALL_PATH = /;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -668,6 +669,7 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
 				INSTALL_PATH = /;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -723,6 +725,7 @@
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_VERSION = "";
