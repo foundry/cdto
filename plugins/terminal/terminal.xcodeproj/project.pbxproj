@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		69449A640B8906BF00A19631 /* CD2Terminal.m in Sources */ = {isa = PBXBuildFile; fileRef = 69449A630B8906BF00A19631 /* CD2Terminal.m */; };
 		69C8A9E6106E871600C4DE0D /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C8A9E5106E871600C4DE0D /* ScriptingBridge.framework */; };
-		69C8AAD7106EEAB700C4DE0D /* Terminal.app in Resources */ = {isa = PBXBuildFile; fileRef = 69C8AAD6106EEAB700C4DE0D /* Terminal.app */; };
 		69C8AAD8106EEAC300C4DE0D /* Terminal.app in Sources */ = {isa = PBXBuildFile; fileRef = 69C8AAD6106EEAB700C4DE0D /* Terminal.app */; };
 		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
 		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
@@ -162,7 +161,7 @@
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1010;
 				TargetAttributes = {
 					8D5B49AC048680CD000E48DA = {
 						DevelopmentTeam = 2Y9BM25FS4;
@@ -192,7 +191,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
-				69C8AAD7106EEAB700C4DE0D /* Terminal.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,7 +240,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -279,7 +277,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;

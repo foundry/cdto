@@ -22,10 +22,11 @@
 				69E2DFCC18386A4900B7DEA3 /* Sign apps */,
 			);
 			dependencies = (
-				69E2DFD618387DE700B7DEA3 /* PBXTargetDependency */,
-				69968DB918385A0500FB4A35 /* PBXTargetDependency */,
-				69968DBB18385A0500FB4A35 /* PBXTargetDependency */,
-				69968DBD18385A0500FB4A35 /* PBXTargetDependency */,
+				ABB8F66222133494007ECC79 /* PBXTargetDependency */,
+				ABB8F66422133494007ECC79 /* PBXTargetDependency */,
+				ABB8F66622133494007ECC79 /* PBXTargetDependency */,
+				ABB8F66822133494007ECC79 /* PBXTargetDependency */,
+				ABB8F66A22133494007ECC79 /* PBXTargetDependency */,
 			);
 			name = "cd to all";
 			productName = "cd to all";
@@ -39,8 +40,8 @@
 				ABDC971B2213187300A7F29C /* Sign apps */,
 			);
 			dependencies = (
-				ABDC97202213189600A7F29C /* PBXTargetDependency */,
-				ABDC97072213187300A7F29C /* PBXTargetDependency */,
+				ABB8F66022133363007ECC79 /* PBXTargetDependency */,
+				ABB8F65E2213335D007ECC79 /* PBXTargetDependency */,
 			);
 			name = "cd to sourcetree";
 			productName = "cd to all";
@@ -58,7 +59,6 @@
 		69968DC918385D4A00FB4A35 /* X11_xterm.bundle in X11 xterm Plugin */ = {isa = PBXBuildFile; fileRef = 69449C110B892D0B00A19631 /* X11_xterm.bundle */; };
 		69C8A98E106E818900C4DE0D /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C8A98D106E818900C4DE0D /* ScriptingBridge.framework */; };
 		69C8AA71106E8F5800C4DE0D /* Finder.app in Resources */ = {isa = PBXBuildFile; fileRef = 69C8AA70106E8F5800C4DE0D /* Finder.app */; };
-		69C8AA89106EE02F00C4DE0D /* Finder.app in Sources */ = {isa = PBXBuildFile; fileRef = 69C8AA70106E8F5800C4DE0D /* Finder.app */; };
 		69E2DFD718387F4500B7DEA3 /* cd to.app in Terminal */ = {isa = PBXBuildFile; fileRef = 8D1107320486CEB800E47090 /* cd to.app */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -105,53 +105,60 @@
 			remoteGlobalIDString = 8D5B49B6048680CD000E48DA;
 			remoteInfo = iterm;
 		};
-		69968DB818385A0500FB4A35 /* PBXContainerItemProxy */ = {
+		ABB8F65D2213335D007ECC79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D1107260486CEB800E47090;
+			remoteInfo = "cd to";
+		};
+		ABB8F65F22133363007ECC79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABDC9700221317BE00A7F29C /* sourcetree.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D5B49AC048680CD000E48DA;
+			remoteInfo = sourcetree;
+		};
+		ABB8F66122133494007ECC79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D1107260486CEB800E47090;
+			remoteInfo = "cd to";
+		};
+		ABB8F66322133494007ECC79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABDC9700221317BE00A7F29C /* sourcetree.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D5B49AC048680CD000E48DA;
+			remoteInfo = sourcetree;
+		};
+		ABB8F66522133494007ECC79 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 69449A9C0B89080600A19631 /* terminal.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 8D5B49AC048680CD000E48DA;
 			remoteInfo = terminal;
 		};
-		69968DBA18385A0500FB4A35 /* PBXContainerItemProxy */ = {
+		ABB8F66722133494007ECC79 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 69449C090B892D0B00A19631 /* X11_xterm.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 8D5B49AC048680CD000E48DA;
 			remoteInfo = X11_xterm;
 		};
-		69968DBC18385A0500FB4A35 /* PBXContainerItemProxy */ = {
+		ABB8F66922133494007ECC79 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 69449D830B894DBF00A19631 /* iterm.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 8D5B49AC048680CD000E48DA;
 			remoteInfo = iterm;
 		};
-		69E2DFD518387DE700B7DEA3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8D1107260486CEB800E47090;
-			remoteInfo = ">cd to ...";
-		};
 		ABDC9704221317BE00A7F29C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ABDC9700221317BE00A7F29C /* sourcetree.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 8D5B49B6048680CD000E48DA;
-			remoteInfo = sourcetree;
-		};
-		ABDC97082213187300A7F29C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8D1107260486CEB800E47090;
-			remoteInfo = ">cd to ...";
-		};
-		ABDC971F2213189600A7F29C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ABDC9700221317BE00A7F29C /* sourcetree.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8D5B49AC048680CD000E48DA;
 			remoteInfo = sourcetree;
 		};
 /* End PBXContainerItemProxy section */
@@ -257,8 +264,8 @@
 		};
 		ABDC9721221318B900A7F29C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = sourectree;
+			buildActionMask = 12;
+			dstPath = sourcetree;
 			dstSubfolderSpec = 16;
 			files = (
 				ABDC9722221318E900A7F29C /* cd to.app in CopyFiles */,
@@ -267,8 +274,8 @@
 		};
 		ABDC9723221318FD00A7F29C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "iterm/cd to.app/Contents/PlugIns";
+			buildActionMask = 12;
+			dstPath = "sourcetree/cd to.app/Contents/Plugins";
 			dstSubfolderSpec = 16;
 			files = (
 				ABDC97242213191F00A7F29C /* sourcetree.bundle in CopyFiles */,
@@ -591,7 +598,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
-			shellScript = "echo \"sign $CONFIGURATION_BUILD_DIR/terminal/cd to.app\"\necho \"sign $CONFIGURATION_BUILD_DIR/iterm/cd to.app\"\necho \"sign $CONFIGURATION_BUILD_DIR/x11_xterm/cd to.app\"\n\ncodesign -s \"Developer ID Application: James Tuley (VURRGRYW45)\" \"$CONFIGURATION_BUILD_DIR/terminal/cd to.app\" \"$CONFIGURATION_BUILD_DIR/iterm/cd to.app\" \"$CONFIGURATION_BUILD_DIR/x11_xterm/cd to.app\"\n\nmkdir -p \"$TARGET_BUILD_DIR\"\nmv \"$CONFIGURATION_BUILD_DIR/terminal\" \"$TARGET_BUILD_DIR/terminal\"\nmv \"$CONFIGURATION_BUILD_DIR/iterm\" \"$TARGET_BUILD_DIR/iterm\"\nmv \"$CONFIGURATION_BUILD_DIR/x11_xterm\" \"$TARGET_BUILD_DIR/x11_xterm\"\n\n";
+			shellScript = "echo \"sign $CONFIGURATION_BUILD_DIR/sourcetree/cd to.app\"\n\ncodesign -s \"Developer ID Application: James Tuley (VURRGRYW45)\" \"$CONFIGURATION_BUILD_DIR/sourcetree/cd to.app\"  \nmkdir -p \"$TARGET_BUILD_DIR\"\nmv \"$CONFIGURATION_BUILD_DIR/sourcetree\" \"$TARGET_BUILD_DIR/sourcetree\"\n\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -601,7 +608,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69C8AA89106EE02F00C4DE0D /* Finder.app in Sources */,
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -609,35 +615,40 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		69968DB918385A0500FB4A35 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = terminal;
-			targetProxy = 69968DB818385A0500FB4A35 /* PBXContainerItemProxy */;
-		};
-		69968DBB18385A0500FB4A35 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = X11_xterm;
-			targetProxy = 69968DBA18385A0500FB4A35 /* PBXContainerItemProxy */;
-		};
-		69968DBD18385A0500FB4A35 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = iterm;
-			targetProxy = 69968DBC18385A0500FB4A35 /* PBXContainerItemProxy */;
-		};
-		69E2DFD618387DE700B7DEA3 /* PBXTargetDependency */ = {
+		ABB8F65E2213335D007ECC79 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8D1107260486CEB800E47090 /* cd to */;
-			targetProxy = 69E2DFD518387DE700B7DEA3 /* PBXContainerItemProxy */;
+			targetProxy = ABB8F65D2213335D007ECC79 /* PBXContainerItemProxy */;
 		};
-		ABDC97072213187300A7F29C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8D1107260486CEB800E47090 /* cd to */;
-			targetProxy = ABDC97082213187300A7F29C /* PBXContainerItemProxy */;
-		};
-		ABDC97202213189600A7F29C /* PBXTargetDependency */ = {
+		ABB8F66022133363007ECC79 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = sourcetree;
-			targetProxy = ABDC971F2213189600A7F29C /* PBXContainerItemProxy */;
+			targetProxy = ABB8F65F22133363007ECC79 /* PBXContainerItemProxy */;
+		};
+		ABB8F66222133494007ECC79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D1107260486CEB800E47090 /* cd to */;
+			targetProxy = ABB8F66122133494007ECC79 /* PBXContainerItemProxy */;
+		};
+		ABB8F66422133494007ECC79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = sourcetree;
+			targetProxy = ABB8F66322133494007ECC79 /* PBXContainerItemProxy */;
+		};
+		ABB8F66622133494007ECC79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = terminal;
+			targetProxy = ABB8F66522133494007ECC79 /* PBXContainerItemProxy */;
+		};
+		ABB8F66822133494007ECC79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = X11_xterm;
+			targetProxy = ABB8F66722133494007ECC79 /* PBXContainerItemProxy */;
+		};
+		ABB8F66A22133494007ECC79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iterm;
+			targetProxy = ABB8F66922133494007ECC79 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -680,6 +691,7 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
 				INSTALL_PATH = /;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -690,6 +702,7 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
 				INSTALL_PATH = /;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
